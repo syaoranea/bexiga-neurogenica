@@ -6,11 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function WhatsAppCard() {
   const handleJoinWhatsApp = () => {
-    // Para um site real, aqui seria o link do grupo do WhatsApp
-    // window.open('https://chat.whatsapp.com/LINKDOGRUPO', '_blank')
-    
-    // Para demonstração, mostrar um alerta
-    alert('Esta é uma demonstração. Em um site real, este botão levaria ao grupo do WhatsApp de apoio para pessoas com bexiga neurogênica.')
+    window.open("https://chat.whatsapp.com/BQJC9ceWfMh5IQmhoT5vwW", "_blank");
   }
 
   return (
